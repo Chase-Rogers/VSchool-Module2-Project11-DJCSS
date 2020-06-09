@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(9, 87, 90);
+}
+div {
+    background-color: aqua;
+    width: 10vw;
+    height: 10vw;
+    border: 20px solid rgb(8, 77, 14);
+    transition: all 500ms linear 500ms;
+}
+
+#tran1:hover {
+    background-color: tomato;
+}
+
+#tran2:hover {
+    background-color: teal;
+    border-radius: 50%;
+}
+
+#tran3:hover {
+    border: 20px solid red;
+}
+
+#tran4:hover {
+    opacity: 0%;
+}
+
+
+#tran5:hover {
+    width: 20vw;
+    height: 20vw;
+}
+
+#tran6:hover {
+    transform: rotate(45deg);
+}
